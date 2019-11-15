@@ -1,0 +1,175 @@
+/*----------- 顶部登录----------- */
+.register{
+    width: 3.75rem;
+    height: 0.4rem;
+    color: white;
+    background:dodgerblue;
+    line-height: 0.4rem;
+    font-weight: 1100;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+}
+.register_left{
+    width: 0.93rem;
+    font-size: 0.23rem;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 0.08rem;
+}
+.register_centre{
+    width: 1.61rem;
+    display: inline-block;
+    font-weight: bolder
+}
+.register_right{
+    width: 1.01rem;
+    display: inline-block;
+}
+/* 调整轮播图 */
+.swiper-container{
+    margin-top: 1rem;
+}
+/*----------- 食品分类----------- */
+.classify{
+    margin-top: 0.4rem;
+}
+.sw{
+    background: white;
+    height: 1.8rem;
+
+}
+.swsl{
+    width: 3.75rem;
+}
+.swsldiv{
+    width: 0.9375rem;
+    float: left;
+    text-align: center;
+}
+.swslimg{
+    width: 0.4rem;
+    margin-top: 0.1rem;
+}
+.swsltext{
+    margin-top: 0.1rem;
+    font-size: 0.13rem;
+}
+/*----------- 附近商家标题----------- */
+.nearbymerchant{
+    width: 3.75rem;
+    background: white;
+    margin-top: 0.1rem;
+    padding-top: 0.1rem;
+}
+.nmtitle{
+    margin-left: 0.1rem;
+    color: #807a7a;
+}
+.nmtitle span{ 
+margin: 0.05rem;
+font-size: 0.14rem;
+}
+/*----------- 附近商家内容----------- */
+.nmcontent{
+    margin-bottom: 0.4rem;
+}
+.nmc{
+    border-bottom: 0.01rem solid #807a7a;
+    margin-top: 0.3rem;
+    padding-left: 0.1rem;
+    padding-bottom: 0.2rem;
+    overflow: hidden;
+    
+}
+.nmcimg{
+    width: 0.6rem;
+    float: left
+}
+/* 右边内容介绍 */
+.nmcright{
+    float: left;
+    width: 2.9rem;
+    margin-left: 0.07rem;
+
+}
+/* 第一行 */
+.onespan{
+    background: #f1f500;
+    font-size: 0.1rem;
+    padding: 0.02rem;
+}
+.onename{
+    font-size: 0.16rem;
+    font-weight: 900;
+}
+.oneicon{
+    float: right;
+}
+.oneicon div{
+    color: #a8a1a1;
+    float: left;
+    font-size: 0.1rem;
+    border: 0.01rem solid #a8a1a1;
+    padding: 0.01rem;
+    margin-right: 0.01rem;
+}
+/* 第二行 */
+.two{
+    margin-top: 0.1rem;
+    overflow: hidden;
+}
+.twostar{
+    float: left;
+}
+.twostar span i{
+    margin-right: -0.5rem;
+}
+.two .el-rate .el-rate__item .el-rate__icon{
+    margin-right: 0;
+}
+.twoorde{
+    float: left;
+    font-size: 0.1rem;
+    margin-left: 0.1rem;
+    color: #a8a1a1;
+    margin-top: 0.03rem;
+}
+.twobird{
+    float: right;
+    color: white;
+    padding: 0.02rem;
+    font-size: 0.01rem;
+    background: dodgerblue;
+    margin-right: 0.02rem;
+    margin-top: 0.01rem;
+}
+.twotime{
+    float: right;
+    color: dodgerblue;
+    padding: 0.02rem;
+    font-size: 0.01rem;
+    border: 0.01rem solid dodgerblue;
+}
+/* 第三行 */
+.three{
+    margin-top: 0.09rem;
+    overflow: hidden;
+}
+.threeprice {
+    font-size: 0.1rem;
+    float: left;
+}
+.threedistance{
+    font-size: 0.1rem;
+    float: right;
+}
+.threetime{
+    font-size: 0.1rem;
+    color: dodgerblue;
+    float: right;
+}
