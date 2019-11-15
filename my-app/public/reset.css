@@ -287,3 +287,6 @@ button {
   background: gray;
   vertical-align: middle;
 }
+#app{
+  margin-top: 0;
+}

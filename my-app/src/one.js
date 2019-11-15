@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-import {Link,Route,withRouter} from 'react-router-dom'
-
-import X_city from './x_city'
-import X_homepage from './x_homepage'
+import CdyLogin from './cdyLogin'
+import CdyHome from './cdyHome'
+import {Route} from 'react-router-dom'
 
 export class one extends Component {
     constructor(props) {
@@ -15,12 +14,8 @@ export class one extends Component {
     render() {
         return (
             <div>
-                <section>
-                    {/*设置默认路由*/}
-                    <Route exact path="/" component={X_city}/>
-                    <Route  path="/x_city" component={X_city}/>
-                    <Route  path="/x_homepage" component={X_homepage}/>
-                </section>
+                <Route exact  path="/" component={CdyLogin}/>
+                <Route path="/cdyHome" component={CdyHome}/> 
             </div>
         )
     }

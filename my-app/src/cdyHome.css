@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cdyhome{
+    width: 100%;
+    height: 100%;
+    /* background-color: pink; */
+}
+/* 1.头部 */
+.cdyhome .header {
+    background-color: #3190e8;
+    height: 0.5rem;
+    width: 3.55rem;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    /* border: black solid 2px; */
+}
+
+.eleme {
+    float: left;
+}
+.el-icon-share{
+    margin-top: 0.15rem;
+    float: right;
+}
+
+/* 2.轮播图 */
+.swiper-container {
+    width: 3.75rem;
+    height: 1.98rem;
+    padding-bottom: 0.135rem;
+    /* border: black solid 1px; */
+    background: #fff;
+
+}
+
+.swiper-slide {
+    width: 3.75rem;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0.12rem;
+}
+
+.swiper-slide div{
+    width: 0.9375rem;
+    height: 0.72219rem;
+    /* border: yellow solid 2px;  */
+    float: left;
+    padding-top: 0.07031rem;
+    color: #727070;
+}
+.swiper-slide img{
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-bottom: 0.07031rem;
+    /* border: yellowgreen solid 2px;  */
+  
+}
+
+/* 3.附近商家 */
+.nearbyShop{
+    width: 3.75rem;
+    height: 0.38rem;
+    background-color: #fff;
+    color: #3190e8;
+    line-height: 0.38rem;
+    font-size: 0.14rem;
+    margin-top: 0.2rem;
+}
+.nearbyShop .el-icon-star-on{
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+/* 4.商铺列表 */
+.shopList li{
+    width: 3.65rem;
+    height: 0.71rem;
+    padding: 0.16406rem 0.09375rem;
+    border: #3190e8 solid 2px;
+    background-color: #fff;
+}
+.shopList li img{
+    width: 0.63281rem;
+    height: 0.63281rem;
+}
